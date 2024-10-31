@@ -1,8 +1,8 @@
-// src/components/Hero.jsx
+
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
-import heroImage from "../assets/heroimg.jpg"; // Replace with the correct path to your image
-import { FiSearch } from "react-icons/fi"; // Icon for search button
+import heroImage from "../assets/heroimg.jpg"; 
+import { FiSearch } from "react-icons/fi"; 
 
 const Hero = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const Hero = () => {
     <div className="py-20 mt-10 ">
       <div className="container px-4 mx-auto">
         
-        {/* Heading Section */}
+       
         <div className="w-full mb-8 text-left">
           <h1 className="w-full font-bold leading-tight text-[#4A4A4A] text-7xl">
             Revitalize your look, embrace<br />{" "}
@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* Image Section with Circular Book Now Button */}
+        
         <div className="relative mb-8 overflow-hidden rounded-lg shadow-lg">
           <img
             src={heroImage}
@@ -50,7 +50,7 @@ const Hero = () => {
 
         </div>
 
-        {/* Search Section */}
+        
         <div className="flex flex-col items-center p-6 space-y-4 bg-white rounded-lg shadow-lg md:flex-row md:space-y-0 md:space-x-4">
           <div className="flex-1">
             <label className="text-sm font-semibold text-[#FB7902]">
