@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import logo from "../assets/logo-01.png"; 
+import logo from "../assets/logo-01.png"; // Adjust path based on your folder structure
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,16 +11,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="py-4 bg-white shadow-md">
+    <nav className="fixed top-0 z-10 w-full py-4 bg-white shadow-sm">
       <div className="container flex items-center justify-between px-4 mx-auto">
+        
         {/* Logo */}
         <div className="flex items-center">
-        <img src={logo} alt="Logo" style={{ width: '80px', height: '80px', marginRight: '8px' }} />
-        <span className="text-xl font-bold text-gray-700">BOOK BEAUTY</span>
+          <img src={logo} alt="Logo" style={{ width: '60px', height: '60px', marginRight: '8px' }} />
+          <span className="text-xl font-bold text-gray-700">BOOK BEAUTY</span>
         </div>
         
         {/* Desktop Menu */}
-        <div className="hidden space-x-8 md:flex ">
+        <div className="hidden space-x-8 md:flex">
           <a href="#home" className="pb-1 text-gray-700 transition-all duration-300 ease-in-out border-b-2 border-transparent hover:text-orange-500 hover:border-orange-500">
             Home
           </a>
