@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import logo from "../assets/logo-01.png";
+import logo from "../assets/Logo-01.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
