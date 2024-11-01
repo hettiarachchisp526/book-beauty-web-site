@@ -26,7 +26,7 @@ const Hero = () => {
     <div className="py-20 mt-10 ">
       <div className="container px-4 mx-auto">
         <div className="w-full mb-8 text-left">
-          <h1 className="w-full font-bold leading-tight text-[#4A4A4A] text-7xl">
+          <h1 className="font-bold leading-tight text-[#4A4A4A] text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
             Revitalize your look, embrace
             <br />{" "}
             <span
@@ -36,7 +36,7 @@ const Hero = () => {
               confidence.
             </span>
           </h1>
-          <p className="w-full mt-4 text-2xl text-[#1E1E1E]">
+          <p className="mt-4 text-base sm:text-lg md:text-xl text-[#1E1E1E]">
             Discover our retreat for men and boys, where style meets comfort.
             From sharp cuts to refreshing treatments, our skilled barbers
             deliver top-notch grooming designed to boost your confidence.
@@ -47,16 +47,16 @@ const Hero = () => {
           <img
             src={heroImage}
             alt="Hero"
-            className="w-full h-70 object-cover md:h-[450px] rounded-lg"
+            className="w-full h-60 sm:h-80 md:h-[450px] object-cover rounded-lg"
           />
 
           <a
-            href="mailto:samuelabera87@gmail.com"
+            href="#"
             id="contact_btn"
-            className="w-[8rem] h-[8rem] rounded-full text-white grid place-items-center absolute lg:right-[2%] sm:right-[10%] xs:right-[10%] top-[5%] bg-white cursor-pointer [transition:all_400ms_ease] hover:shadow-2xl hover:shadow-gray-900 hover:-translate-y-[1rem] hover:text-[#000e17]"
+            className="w-20 h-20 sm:w-32 sm:h-32 lg:w-[8rem] lg:h-[8rem] rounded-full text-white grid place-items-center absolute right-4 top-4 bg-white cursor-pointer transition-all duration-400 hover:shadow-2xl hover:-translate-y-4 hover:text-[#000e17]"
           >
             <i className="uil uil-arrow-up-right text-orange-500 absolute text-[3.5rem]"></i>
-            <p className="text-white font-bold w-[10rem] h-[6rem] flex justify-center mt-[135px] ml-[-15px]">
+            <p className="text-white font-bold w-[10rem] h-[6rem] flex justify-center md:mt-[135px] md:ml-[-15px] mt-[90px] ml-[-35px]">
               BOOK NOW
             </p>
           </a>
